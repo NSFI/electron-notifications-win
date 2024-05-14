@@ -21,7 +21,10 @@
     "macos",
     "osx"
   ],
-  "repository": "git@github.com:NSFI/electron-notifications-win.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NSFI/electron-notifications-win.git"
+  },
   "author": "netease/NSFI",
   "license": "MIT",
   "standard": {
