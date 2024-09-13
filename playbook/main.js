@@ -21,6 +21,7 @@ app.on('ready', () => {
     spaceHeight: 20,
     icon: 'icon.png',
     silent: true,
+    bigPopup: false,
   });
   notifier.notify({
     title: 'from main process',
